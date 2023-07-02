@@ -1,0 +1,19 @@
+{
+  "name": "accessibility-testing",
+  "version": "1.0.0",
+  "description": "QA Team project for accessibility testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "author": "QA Team",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^4.7.2",
+    "cypress": "^12.16.0",
+    "cypress-axe": "^1.4.0",
+    "typescript": "^5.1.6"
+  }
+}
