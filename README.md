@@ -8,17 +8,22 @@ This repo is written in `ts` & `cypress`, `cypress-axe` is being used to test th
 
 ## 🏃 Running the tests
 
-Launching Cypress Runner
+- Launching Cypress Runner
 `npx cypress open`
 
-When a test is run, this will throw the following in the terminal indicating the accissibility violations.
+This will throw the following in the terminal indicating the accissibility violations.
 
 <img width="1331" alt="image" src="https://github.com/Perlego/accessibility-testing/assets/133763720/97e12106-55e8-4cb1-9628-47fa4a97b652">
 
 The failure will look as follow in the cypresss runner
 
-<img width="1468" alt="image" src="https://github.com/Perlego/accessibility-testing/assets/133763720/bb3f1e53-a1bf-4fed-81bd-3ac2a653200a">
+<img width="1331" alt="image" src="https://github.com/Perlego/accessibility-testing/assets/133763720/bb3f1e53-a1bf-4fed-81bd-3ac2a653200a">
 
+- Running cypress headless mode
+`npx cypress run`
+
+This will throw the following in the terminal (if there are failures)
+<img width="1331" alt="image" src="https://github.com/Perlego/accessibility-testing/assets/133763720/d0490333-0650-4760-ae9e-0be78ad6aa8b">
 
 ## ⚠️ Disclaimer
 This is still in stage zero of QA. 
