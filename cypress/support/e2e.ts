@@ -19,3 +19,20 @@ import 'cypress-axe'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+const resizeObserverLoopErrRe = /^[^(ResizeObserver loop limit exceeded)]/
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    if (resizeObserverLoopErrRe.test(err.message)) {
+        return false
+    }
+    return false
+  });
+  
+declare global {
+    namespace Cypress {
+      interface Chainable {
+        checkPageA11y(value: string): Chainable<JQuery<HTMLElement>>;
+      }
+    }
+}

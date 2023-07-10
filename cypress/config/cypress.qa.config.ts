@@ -9,7 +9,6 @@ module.exports = defineConfig({
     name: 'qa',
     baseAPI: 'https://api-eu-west-2-dev.perlego.com',
   },
-  projectId: 'ub8448',
   viewportWidth: 1100,
   viewportHeight: 900,
   video: true,
