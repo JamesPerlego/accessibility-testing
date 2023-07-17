@@ -15,9 +15,17 @@ This will throw the following in the terminal indicating the accissibility viola
 
 <img width="1331" alt="image" src="https://github.com/Perlego/accessibility-testing/assets/133763720/97e12106-55e8-4cb1-9628-47fa4a97b652">
 
-The failure will look as follow in the cypresss runner
+A rating system has been put in place to guage the severity of issues that arise.
 
-<img width="1331" alt="image" src="https://github.com/Perlego/accessibility-testing/assets/133763720/bb3f1e53-a1bf-4fed-81bd-3ac2a653200a">
+<img width="158" alt="Screenshot 2023-07-17 at 12 27 16" src="https://github.com/Perlego/accessibility-testing/assets/70587412/0b706892-fd44-48fb-882d-2754022bb767">
+
+The failures will look as follow in the cypresss runner
+
+<img width="669" alt="Screenshot 2023-07-17 at 12 29 38" src="https://github.com/Perlego/accessibility-testing/assets/70587412/1d4ce7f3-a9d1-4692-852f-339f45c9c44c">
+
+Each failure will also link directly to a source which identifies the issue, why it matters and how to fix. These are all taken from the WCAG guidelines.
+
+<img width="954" alt="Screenshot 2023-07-17 at 12 27 58" src="https://github.com/Perlego/accessibility-testing/assets/70587412/03321a52-8868-4cf3-8299-e3cda91d4248">
 
 - Running cypress headless mode
 `npx cypress run`
